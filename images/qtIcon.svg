@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.09 30.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #eca635;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #eca635;
+        font-family: SOYO-Maple-Bold-TTF, 'SOYO Maple TTF';
+        font-size: 14px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_2-2" data-name="레이어 2">
+    <g>
+      <rect class="cls-1" x="1.5" y="1.5" width="27.09" height="27.09" rx="1.42" ry="1.42"/>
+      <text class="cls-2" transform="translate(4.27 18.29)"><tspan x="0" y="0">QT</tspan></text>
+    </g>
+  </g>
+</svg>

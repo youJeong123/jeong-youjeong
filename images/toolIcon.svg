@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.05 29.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eca635;
+        stroke: #eca635;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_2-2" data-name="레이어 2">
+    <g>
+      <path class="cls-1" d="M13.95,.5h4.25v7.82h-5.67V1.92c0-.78,.64-1.42,1.42-1.42Z"/>
+      <path class="cls-1" d="M12.57,8.02l-4.01,3.98-4-3.97c-.87-.86-.87-2.26,0-3.13l2.43-2.42,5.57,5.53Z"/>
+      <path class="cls-1" d="M3.04,10.64H7.25v7.88H1.63v-6.46c0-.78,.64-1.42,1.42-1.42Z" transform="translate(-10.14 19.02) rotate(-90)"/>
+      <path class="cls-1" d="M8.08,17.35l4.01,3.98-4,3.97c-.87,.86-2.28,.86-3.15,0l-2.43-2.42,5.57-5.53Z"/>
+      <path class="cls-1" d="M13.26,21.52h4.25v7.82h-5.67v-6.4c0-.78,.64-1.42,1.42-1.42Z" transform="translate(29.36 50.86) rotate(-180)"/>
+      <path class="cls-1" d="M17.48,21.82l4.01-3.98,4,3.97c.87,.86,.87,2.26,0,3.13l-2.43,2.42-5.57-5.53Z"/>
+      <path class="cls-1" d="M24.21,11.32h4.21v7.88h-5.63v-6.46c0-.78,.64-1.42,1.42-1.42Z" transform="translate(40.87 -10.35) rotate(90)"/>
+      <path class="cls-1" d="M21.97,12.49l-4.01-3.98,4-3.97c.87-.86,2.28-.86,3.15,0l2.43,2.42-5.57,5.53Z"/>
+      <path class="cls-1" d="M13.95,.5h4.25v7.82h-5.67V1.92c0-.78,.64-1.42,1.42-1.42Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,292 @@
+@media(min-width:0){
+
+header{
+    padding:0 20px;
+    display:flex;
+    justify-content:space-between;
+    height:50px;
+    align-items: center;
+}
+
+header h1 a{
+    width:100px;
+    height:100%;
+}
+
+header .header-right{
+    display:flex;
+    width: 20%;
+    height:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-right a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+}
+
+header .header-right a img{
+    width:50%;
+    height:50px;
+}
+
+header .header-right div:last-child a img{
+    width:80%;
+}
+
+.banner{
+    border:solid 1px #888;
+    border-right:0;
+    border-left:0;
+    width:100%;
+    background-color:#f0f0f0;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.banner .slider .slide{
+    overflow:hidden;
+    height:100%;
+    width:100%;
+}
+
+.banner .slider .slide .wrap{
+    padding-bottom:12px;
+    display:flex;
+    align-items:center;
+    
+}
+
+.banner .slider .slide .wrap h2{
+    font-size:20px;
+    order:1;
+    margin-right:auto;
+}
+
+.banner .slider .slide .wrap button{
+    order:2;
+    font-family: 'SOYOMapleBoldTTF';
+}
+
+.banner .slider .slide p{
+    margin-bottom:4px;
+    width:100%;
+    height:100%;
+}
+
+.banner .slider .slide .keywards{
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: flex-start;
+}
+
+.banner .slider .slide .keywards .keyward{
+    background-color:blue;
+    padding:8px;
+    margin-right:4px;
+    text-wrap:nowrap;
+    font-size:12px;
+    border-radius:16px;
+    color:#f0f0f0;  
+}
+
+.banner .slider .slide .more{
+    border:0;
+    padding:8px 24px;
+    font-size:16px;
+    background-color:#333;
+    border-radius: 999px;
+    color:#fff;
+}
+
+main{
+    padding:0 20px 20px 20px;
+    display:flex;
+}
+
+main > div{
+    width:100%;
+    height:180px;
+    background-color:#E7251E;
+    border-radius: 8px;
+    border:solid 2px #E7251E;
+}
+
+main .QT-button{
+    font-family: 'SOYOMapleBoldTTF';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#f0f0f0;
+    margin-right:20px;
+}
+
+main .QT-star{
+    background-color:transparent;
+}
+
+main .QT-star h2{
+    font-family: 'SOYOMapleBoldTTF';
+    width:100%;
+    font-size:20px;
+    padding:8px;
+    text-align:center;
+    border-bottom:#E7251E solid 2px;
+    color:#E7251E;
+}
+
+main .QT-star .star-box{
+    padding:8px;
+}
+
+main .QT-star .team{
+    align-items: center;
+    display:flex;
+    margin-bottom:8px;
+}
+
+main .QT-star .team .team-profil{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#f0f0f0;
+    font-size:12px;
+    margin-right: 8px;
+    width:24px;
+    height:24px;
+    border-radius: 999px;
+    background-color:#E7251E;
+}
+
+main .QT-star .team .team-name{
+    font-weight: 700;
+}
+
+.tools{
+    padding:20px;
+    border:solid #F5AA30 2px; 
+    border-left:0;
+    border-right:0;
+}
+
+.tools h2{
+    margin-bottom:12px;
+    font-family: 'SOYOMapleBoldTTF';
+    font-size:20px;
+    color:#333;
+}
+
+.tools .wrap{ /*옆으로 넘기는 슬라이드 구현 필요*/
+    overflow: scroll visible;
+    white-space: nowrap;
+    align-items: center;
+    width:100%;
+}
+
+.tools .wrap::-webkit-scrollbar{
+    display: none; 
+}
+
+.tools .wrap .tool{
+    display:inline-block;
+    margin-right:8px;
+    background-color:#E7251E;
+    width:180px; 
+    height:180px;
+    border-radius: 8px;
+    position:relative;
+    overflow: hidden;
+}
+
+.tools .wrap .tool::after{
+    z-index: 1;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:block;
+    background-color:rgba(0,0,0,0.4);
+    left:0;
+    top:0;
+}
+
+.bible{
+    background-image:url(../images/bible.jpg);
+    background-position:center center;
+    background-size:cover;
+}
+
+.sing{
+    background-image:url(../images/sing.jpg);
+    background-position:center center;
+    background-size:cover;
+}
+
+.welfare{
+    background-image:url(../images/welfare.jpg);
+    background-position:center center;
+    background-size:cover;
+}
+
+.question{
+    background-image:url(../images/question.jpg);
+    background-position:center center;
+    background-size:cover;
+}
+
+.tool p{
+    z-index: 2;
+    width:100%;
+    font-size:24px;
+    color:#fff;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    transform:translatey(-50%);
+}
+
+footer{
+    z-index: 99;
+    position:sticky;
+    bottom:0;   
+    width:100%;
+    height: 50px;
+    background-color:rgba(255,255,255,1);
+    border:solid #333 1.5px;
+    border-left:0;
+    border-right:0;
+}
+
+
+footer .wrap{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding:0 20px;
+}
+
+footer .wrap > div{
+    width:100%;
+    height:100%;
+}
+
+footer .wrap > div a{
+    display:flex;
+    align-items: center;
+    height:50px;
+    width:100% ;
+    justify-content: center;
+}
+
+footer .wrap > div a img{
+    width:32px;
+}
+
+
+}
+
